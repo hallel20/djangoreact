@@ -85,6 +85,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+DATABASE_URL = 'mysql://tfgogklqyghwgamg:ekilzzswwrgiabeu@34.35.34.238:8001/drlljacakhmidfuo'
 
 
 # Password validation
