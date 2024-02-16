@@ -16,10 +16,11 @@ SECRET_KEY = 'django-insecure-4fa4dc07aoj0osr4vbc@7s74h5j$dhpotq@^e^3r=qm!ccbh+f
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "http://127.0.0.1:3000",
-    "http://127.0.0.1:3001",
-    "https://ragalehomes.hallelojowuro.com",
-    "https://hallelojowuro.com",
+    '127.0.0.1',
+    'localhost',
+    'ragalehomes.hallelojowuro.com',
+    'hallelojowuro.com',
+    'djangoreact.appliku.com',
 ]
 
 
