@@ -20,7 +20,7 @@ ALLOWED_HOSTS = [
     'localhost',
     'ragalehomes.hallelojowuro.com',
     'hallelojowuro.com',
-    'djangoreact.appliku.com',
+    'djangoreact.applikuapp.com',
 ]
 
 
