@@ -1,0 +1,5 @@
+Django==5.0
+djangorestframework==3.14.0
+rest_framework_simplejwt==0.0.2
+Gunicorn
+Psycopg2-binary
