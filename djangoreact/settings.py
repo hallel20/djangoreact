@@ -55,6 +55,8 @@ AUTHENTICATION_BACKENDS = [
     'api.auth.EmailBackend'
 ]
 
+CSRF_TRUSTED_ORIGINS = ['https://djangoreact.applikuapp.com']
+
 ROOT_URLCONF = 'djangoreact.urls'
 
 TEMPLATES = [
