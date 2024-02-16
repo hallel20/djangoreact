@@ -15,7 +15,12 @@ SECRET_KEY = 'django-insecure-4fa4dc07aoj0osr4vbc@7s74h5j$dhpotq@^e^3r=qm!ccbh+f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "http://127.0.0.1:3000",
+    "http://127.0.0.1:3001",
+    "https://ragalehomes.hallelojowuro.com",
+    "https://hallelojowuro.com",
+]
 
 
 # Application definition
@@ -29,6 +34,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
+    'rest_framework_simplejwt',
     'corsheaders',
     'api',
 ]
@@ -115,10 +121,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
-
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'react-app/build/static')
-]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
