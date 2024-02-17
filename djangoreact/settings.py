@@ -166,3 +166,7 @@ CORS_ALLOW_METHODS = [
     "POST",
     "PUT",
 ]
+
+DJANGO_SUPERUSER_USERNAME = 'hallelojowuro'
+DJANGO_SUPERUSER_PASSWORD = 'hallelojowuro'
+DJANGO_SUPERUSER_EMAIL = 'info@hallelojowuro.com'
